@@ -1,0 +1,6 @@
+/* Englishin pala natin para masanay tayo */
+/* Tinanggal ko lang yung spacing ng body */
+html,body {
+    padding: 0;
+    margin: 0;
+}
