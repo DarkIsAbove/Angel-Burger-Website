@@ -12,9 +12,25 @@
     -->
     <link rel="icon" type="image/jpg" href="./images/logo (1).png" />
     <link rel="stylesheet" type="text/css" href="./style.css" /> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
 </head>
 <body>
+    <div id="vantamod"></div>
     <!-- Isip Muna Tayo Content ng Angil Borgir -->
     <h1>Unang Kagat Tinapay Lahat</h1>
+    <script>
+        VANTA.BIRDS({
+          el: "#vantamod",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          backgroundColor: 0xa99f53
+        })
+    </script>
 </body>
 </html>
